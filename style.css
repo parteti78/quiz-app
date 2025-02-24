@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+
+    height: 100%;
+    width: 100%;
+    background-color: #4a4949;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#main{
+    height: 40vh;
+    width: 45vw;
+    background-color: rgb(202, 207, 202);
+    border-radius: 4px;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  
+}
+#contaiiner{
+
+    height: 100%;
+    width: 100%;
+    /* display: none; */
+
+    
+}
+#quetions{
+    font-size: 2.9vw;
+    text-transform: capitalize;
+    
+}
+
+ul{
+   
+  
+    padding: 1%;
+    font-size: 2.4vw;
+    list-style: none;
+    text-transform: capitalize;
+    
+}
+li{
+
+    margin-bottom: 5px;
+    padding: 0.5%;
+    border-radius: 5px;
+    
+}
+li:hover{
+    
+    background-color: rgb(192, 195, 192);
+
+}
+
+
+button{
+    position: absolute;
+   left: 20%;
+   top: 75%;
+    padding: 1%;
+    background-color: rgb(71, 97, 71);
+    font-weight: 800;
+    font-size: 2.2vw;
+    border: none;
+    width: 25vw;
+    text-transform: capitalize;
+    height: 6vh;
+    border-radius: 3px;
+    cursor: pointer;
+    text-transform: capitalize;
+    }
+    button:hover{
+
+        background-color: rgb(92, 115, 92);
+
+
+    }
+
+    #playbtn{
+
+        margin-top: -10%;
+        height: 6vh;
+        cursor: pointer;
+        background-color: rgb(71, 97, 71);
+    }
+
+    #playbtn:hover{
+
+        background-color: rgb(145, 145, 145);
+    }
+
+  #scorediv{
+
+   
+    text-align: center;
+    margin-top: 10vh;
+    height: 5vh;
+    font-size: 2.4vw;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+  }
+#scor{
+
+
+    background-color: rgb(241, 206, 5);
+    padding: 1%;
+   font-size: 2rem;
+}
+
+/* media query */
+
+ @media only screen and (max-width:959px){
+
+    button{
+
+        height: 4.5vw;
+
+
+         
+    }
+
+
+    #main{
+
+        height: 36vh;
+
+
+
+    }
+
+
+}
+
+@media only screen and (max-width:647px){
+
+   
+
+    #main{
+
+        height: 26vh;
+
+
+
+    }
+
+
+}
+
+
+
